@@ -46,4 +46,16 @@ table {
   border-spacing: 0;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 /*# sourceMappingURL=reset.css.map */
