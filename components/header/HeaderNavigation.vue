@@ -1,21 +1,27 @@
-<script setup lang="ts">
-import Navigation from "~/components/shared/navigation/Navigation.vue";
-import {INavigation} from "~/interfaces/INavigation";
+<script
+    setup
+    lang="ts"
+>
+import Navigation from '~/components/shared/navigation/Navigation.vue';
+import { INavigation } from '~/interfaces/INavigation';
 
 const navLinks: INavigation[] = [
-  {
-    title: 'Каталог',
-    link: "/catalog"
-  },
-  {
-    title: 'Доставка',
-    link: "/delivery"
-  },
-  {
-    title: 'Контакты',
-    link: "/contacts"
-  },
-]
+	{
+		id: 1,
+		title: 'Каталог',
+		link: '/catalog'
+	},
+	{
+		id: 2,
+		title: 'Доставка',
+		link: '/delivery'
+	},
+	{
+		id: 3,
+		title: 'Контакты',
+		link: '/contacts'
+	}
+];
 </script>
 
 <template>
@@ -25,6 +31,11 @@ const navLinks: INavigation[] = [
   />
 </template>
 
-<style scoped lang="scss">
-
+<style
+    scoped
+    lang="scss"
+>
+.header__nav {
+  justify-self: center;
+}
 </style>
