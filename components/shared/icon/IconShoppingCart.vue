@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import IconBase from "~/components/shared/icon/IconBase.vue";
+import IconBase from '~/components/shared/icon/IconBase.vue';
 </script>
 
 <template>

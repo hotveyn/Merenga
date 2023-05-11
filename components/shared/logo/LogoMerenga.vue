@@ -14,7 +14,7 @@
     width: 100%;
 
     &_base {
-      max-width: 250px;
+      max-width: 200px;
       min-width: 130px;
     }
   }

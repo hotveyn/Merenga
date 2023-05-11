@@ -6,6 +6,6 @@
 
 <style scoped lang="scss">
 :slotted(img) {
-  width: adpval(20, 45);
+  width: adpval(20, 35);
 }
 </style>

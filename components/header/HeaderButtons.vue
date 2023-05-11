@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import IconShoppingCart from "~/components/shared/icon/IconShoppingCart.vue";
+import IconShoppingCart from '~/components/shared/icon/IconShoppingCart.vue';
 
 </script>
 
@@ -15,7 +15,7 @@ import IconShoppingCart from "~/components/shared/icon/IconShoppingCart.vue";
 .header{
 
   &__buttons {
-    justify-self: right;
+    justify-self: center;
     display: flex;
     align-items: center;
     gap: adpval(10, 20);

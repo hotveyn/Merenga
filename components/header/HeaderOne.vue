@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import LogoMerenga from "~/components/shared/logo/LogoMerenga.vue";
-import LinkBase from "~/components/shared/link/LinkBase.vue";
-import HeaderButtons from "~/components/header/HeaderButtons.vue";
+import LogoMerenga from '~/components/shared/logo/LogoMerenga.vue';
+import LinkBase from '~/components/shared/link/LinkBase.vue';
+import HeaderButtons from '~/components/header/HeaderButtons.vue';
+import HeaderNavigation from '~/components/header/HeaderNavigation.vue';
 </script>
 
 <template>
@@ -20,17 +21,17 @@ import HeaderButtons from "~/components/header/HeaderButtons.vue";
 .header {
   padding: 40px 0;
   width: 100%;
+  position: relative;
+  z-index: 5;
 
   &__content {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
+    position: relative;
     gap: 10px;
   }
 
-  &__nav {
-    justify-self: center;
-  }
 }
 
 </style>
