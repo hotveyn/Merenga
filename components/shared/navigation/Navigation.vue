@@ -1,12 +1,12 @@
+<!--TODO: rename component-->
 <script setup lang="ts">
-// TODO: rename component
-import LinkBase from "~/components/shared/link/LinkBase.vue";
-import {INavigation} from "~/interfaces/INavigation";
+import LinkBase from '~/components/shared/link/LinkBase.vue';
+import { INavigation } from '~/interfaces/INavigation';
 
 const props = withDefaults(defineProps<{
   navLinks: INavigation[],
   isVertical?: boolean;
-}>(), {isVertical: false});
+}>(), { isVertical: false });
 
 </script>
 
@@ -17,8 +17,9 @@ const props = withDefaults(defineProps<{
         :class="{'navigation__list_vertical': isVertical}"
     >
       <li
+          v-for="navLink in props.navLinks"
+          :key="navLink.id"
           class="navigation__item"
-          v-for="navLink in navLinks"
       >
         <LinkBase
             class="navigation__link link"
@@ -44,7 +45,7 @@ const props = withDefaults(defineProps<{
   }
 
   &__link {
-    font-size: adpval(18, 28);
+    font-size: adpval(18, 24);
   }
 
 }
