@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import IndexScreen from "~/screens/IndexScreen/IndexScreen.vue";
+import IndexScreen from '~/screens/index-screen/IndexScreen.vue';
 </script>
 
 <template>

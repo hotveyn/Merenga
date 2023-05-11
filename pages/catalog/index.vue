@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import {useRoute} from "#app";
+import { useRoute } from '#app';
 
-const route = useRoute()
+const route = useRoute();
 </script>
 
 <template>
-  {{ route.name }}
+  <h1>{{ route.name }}</h1>
 </template>
 
 <style scoped lang="scss">
