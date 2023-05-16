@@ -1,6 +1,6 @@
 <script
-    setup
-    lang="ts"
+		setup
+		lang="ts"
 >
 import ButtonBase from '~/components/shared/button/ButtonBase.vue';
 </script>
@@ -14,7 +14,7 @@ import ButtonBase from '~/components/shared/button/ButtonBase.vue';
           class="index-opening__cake-img"
       >
       <div class="index-opening__info">
-        <h1 class="index-opening__title">
+        <h1 class="index-opening__title title-h1">
           Условный текст который может привлечь внимание
         </h1>
         <p class="index-opening__description">
@@ -33,8 +33,8 @@ import ButtonBase from '~/components/shared/button/ButtonBase.vue';
 </template>
 
 <style
-    scoped
-    lang="scss"
+		scoped
+		lang="scss"
 >
 .index-opening {
   width: 100%;
@@ -50,11 +50,7 @@ import ButtonBase from '~/components/shared/button/ButtonBase.vue';
   }
 
   &__title {
-    font-weight: 700;
-    font-size: adpval(20, 38);
     max-width: 585px;
-    line-height: 37px;
-    color: $merenga-black;
   }
 
   &__description {
