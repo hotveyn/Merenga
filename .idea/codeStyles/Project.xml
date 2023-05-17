@@ -1,13 +1,7 @@
 <component name="ProjectCodeStyleConfiguration">
   <code_scheme name="Project" version="173">
     <HTMLCodeStyleSettings>
-      <option name="HTML_UNIFORM_INDENT" value="true" />
-      <option name="HTML_ATTRIBUTE_WRAP" value="2" />
       <option name="HTML_ALIGN_TEXT" value="true" />
-      <option name="HTML_ELEMENTS_TO_REMOVE_NEW_LINE_BEFORE" value="" />
-      <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
-      <option name="HTML_INLINE_ELEMENTS" value="style,script,template" />
-      <option name="HTML_DONT_ADD_BREAKS_IF_INLINE_CONTENT" value="" />
       <option name="HTML_ENFORCE_QUOTES" value="true" />
       <option name="HTML_NEWLINE_BEFORE_FIRST_ATTRIBUTE" value="When multiline" />
       <option name="HTML_NEWLINE_AFTER_LAST_ATTRIBUTE" value="When multiline" />
@@ -29,23 +23,14 @@
       <option name="OBJECT_LITERAL_WRAP" value="2" />
       <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
       <option name="SPACES_WITHIN_IMPORTS" value="true" />
+      <option name="BLACKLIST_IMPORTS" value="rxjs/Rx,node_modules/**,**/node_modules/**,@angular/material,@angular/material/typings/**,**/components/**" />
     </TypeScriptCodeStyleSettings>
-    <codeStyleSettings language="CSS">
-      <indentOptions>
-        <option name="USE_TAB_CHARACTER" value="true" />
-      </indentOptions>
-    </codeStyleSettings>
     <codeStyleSettings language="HTML">
       <indentOptions>
         <option name="INDENT_SIZE" value="2" />
         <option name="CONTINUATION_INDENT_SIZE" value="4" />
         <option name="TAB_SIZE" value="2" />
-        <option name="USE_TAB_CHARACTER" value="true" />
-        <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
       </indentOptions>
-      <arrangement>
-        <rules />
-      </arrangement>
     </codeStyleSettings>
     <codeStyleSettings language="JavaScript">
       <option name="BLOCK_COMMENT_ADD_SPACE" value="true" />
@@ -58,18 +43,9 @@
       <option name="WHILE_BRACE_FORCE" value="3" />
       <option name="FOR_BRACE_FORCE" value="3" />
       <indentOptions>
-        <option name="USE_TAB_CHARACTER" value="true" />
-      </indentOptions>
-    </codeStyleSettings>
-    <codeStyleSettings language="SASS">
-      <indentOptions>
-        <option name="INDENT_SIZE" value="4" />
-        <option name="USE_TAB_CHARACTER" value="true" />
-      </indentOptions>
-    </codeStyleSettings>
-    <codeStyleSettings language="SCSS">
-      <indentOptions>
-        <option name="INDENT_SIZE" value="4" />
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
         <option name="USE_TAB_CHARACTER" value="true" />
       </indentOptions>
     </codeStyleSettings>
@@ -83,6 +59,11 @@
       <option name="DOWHILE_BRACE_FORCE" value="3" />
       <option name="WHILE_BRACE_FORCE" value="3" />
       <option name="FOR_BRACE_FORCE" value="3" />
+      <indentOptions>
+        <option name="USE_TAB_CHARACTER" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="Vue">
       <indentOptions>
         <option name="USE_TAB_CHARACTER" value="true" />
       </indentOptions>
