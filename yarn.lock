@@ -6149,12 +6149,23 @@ __metadata:
     eslint-plugin-nuxt: ^4.0.0
     eslint-plugin-vue: ^9.12.0
     nuxt: ^3.5.0
+    nuxt-swiper: ^1.1.0
     pinia: ^2.0.35
     sass: ^1.62.1
     typescript: ^5.0.4
     vue-eslint-parser: ^9.2.1
   languageName: unknown
   linkType: soft
+
+"nuxt-swiper@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "nuxt-swiper@npm:1.1.0"
+  dependencies:
+    "@nuxt/kit": ^3.3.3
+    swiper: ^9.2.0
+  checksum: a0439f4920e6e48485ea6f85ea44df2aba35a1555a2ab775cb5f51ca395eebde67e7526a14335e47c5c2799057e67b737a281dbf936b23351d161f6f67a58429
+  languageName: node
+  linkType: hard
 
 "nuxt@npm:^3.5.0":
   version: 3.5.0
@@ -7732,6 +7743,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ssr-window@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "ssr-window@npm:4.0.2"
+  checksum: df182600927f4f3225224cf8c02338ea637c9750519505bbfb9a9236741a2a7ec088386fb948bca7b447b8303d9109e7dc7672e3de041c79ac2a0e03665af7d2
+  languageName: node
+  linkType: hard
+
 "ssri@npm:^9.0.0":
   version: 9.0.1
   resolution: "ssri@npm:9.0.1"
@@ -7959,6 +7977,15 @@ __metadata:
   bin:
     svgo: bin/svgo
   checksum: 381ba14aa782e71ab7033227634a3041c11fa3e2769aeaf0df43a08a615de61925108e34f55af6e7c5146f4a3109e78deabb4fa9d687e36d45d1f848b4e23d17
+  languageName: node
+  linkType: hard
+
+"swiper@npm:^9.2.0":
+  version: 9.3.2
+  resolution: "swiper@npm:9.3.2"
+  dependencies:
+    ssr-window: ^4.0.2
+  checksum: 9ccb6a0ef67d71ac780d7d1f3b2c2daf6f1846d3df8810aff6dcb8501c87b7769540a869cdd83eb902e5278396e5379cb32d9ed397234f7700ef55f0209f4592
   languageName: node
   linkType: hard
 

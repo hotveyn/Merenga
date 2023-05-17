@@ -3,9 +3,12 @@ export default defineNuxtConfig({
 	modules: [
 		'@nuxtjs/supabase',
 		'@pinia/nuxt',
-		'@nuxtjs/google-fonts'
-
+		'@nuxtjs/google-fonts',
+		'nuxt-swiper'
 	],
+	swiper: {
+		styleLang: 'scss'
+	},
 	components: [
 		{
 			pathPrefix: false
