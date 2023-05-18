@@ -22,8 +22,6 @@ import FooterOne from '~/components/footer/FooterOne.vue';
 >
 .global-wrapper {
   width: 100%;
-  height: 100vh;
   background-color: $merenga-cream;
-  overflow: hidden;
 }
 </style>
