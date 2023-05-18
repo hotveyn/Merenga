@@ -7,7 +7,12 @@ export default defineNuxtConfig({
 		'nuxt-swiper'
 	],
 	swiper: {
-		styleLang: 'scss'
+		styleLang: 'scss',
+		modules: [
+			'autoplay',
+			'controller',
+			'navigation'
+		]
 	},
 	components: [
 		{
