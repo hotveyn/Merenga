@@ -63,12 +63,12 @@ import ButtonBase from '~/components/shared/button/ButtonBase.vue';
   }
 
   &__cake-img {
-    z-index: 1;
+    z-index: 0;
     position: absolute;
     right: -250px;
     max-width: 1000px;
-    min-width: 800px;
-    top: adpval(-100, -250);
+    min-width: 1000px;
+    top: adpval(-300, -400);
     width: 70%;
   }
 
