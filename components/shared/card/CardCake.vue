@@ -33,7 +33,7 @@ defineProps<{
 	padding: 20px adpval(20, 30);
 	width: fit-content;
 	border-radius: 15px;
-	box-shadow: 0 3px 8px #C4D0D0;
+	//box-shadow: 0 3px 8px #C4D0D0;
 	background-color: $merenga-white;
 	display: flex;
 	flex-direction: column;

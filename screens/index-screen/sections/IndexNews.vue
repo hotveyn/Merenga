@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ICakeCard } from '~/interfaces/ICakeCard.ts';
 import SwiperCake from '~/components/shared/swiper/SwiperCake.vue';
+import ButtonBase from '~/components/shared/button/ButtonBase.vue';
 
 const cakes: ICakeCard[] = [
 	{
@@ -48,6 +49,13 @@ const cakes: ICakeCard[] = [
 						:cakes="cakes"
 				/>
 			</div>
+			<ButtonBase
+					:to="'/catalog'"
+					type="switch"
+					class="index-news__button"
+			>
+				Посмотреть ещё
+			</ButtonBase>
 		</div>
 	</div>
 </template>
@@ -61,6 +69,10 @@ const cakes: ICakeCard[] = [
 	&__cakes {
 		width: 850px;
 		margin-top: 30px;
+	}
+
+	&__button {
+		margin-top: adpval(20, 30);
 	}
 }
 </style>
