@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import CardCake from '~/components/shared/cards/CardCake.vue';
+import CardCake from '../card/CardCake.vue';
 import { ICakeCard } from '~/interfaces/ICakeCard';
 import { SwiperAutoplay, SwiperNavigation, SwiperController, ref } from '#imports';
 
@@ -14,8 +14,10 @@ function setSwiperInstance(swiper: any) {
 	swiperInstance.value = swiper;
 }
 
-function next() {
-	swiperInstance.value.slideNext();
+function nextSwiperSlide() {
+	if (swiperInstance.value) {
+		swiperInstance.value.slideNext();
+	}
 }
 
 </script>
@@ -40,7 +42,7 @@ function next() {
 				<CardCake :cake="cake"/>
 			</SwiperSlide>
 		</Swiper>
-		<button class="swiper-cake__next" @click="next()">
+		<button class="swiper-cake__next" @click="nextSwiperSlide()">
 			<img src="/images/icons/right-slide-arrow.svg" alt="right">
 		</button>
 	</div>
@@ -49,6 +51,7 @@ function next() {
 <style scoped lang="scss">
 .swiper-cake {
 	position: relative;
+
 	&__next {
 		position: absolute;
 		right: -100px;
